@@ -1,4 +1,3 @@
-name: C/C++ CI
 name: Setup MSBuild.exe
 on:
   push:
