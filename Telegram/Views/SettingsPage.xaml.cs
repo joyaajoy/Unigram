@@ -171,6 +171,11 @@ namespace Telegram.Views
             ViewModel.NavigationService.Navigate(typeof(BusinessPage));
         }
 
+        private void BotHub_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModel.NavigationService.Navigate(typeof(BotHubPage));
+        }
+
         private async void Photo_Click(object sender, RoutedEventArgs e)
         {
             if (ViewModel.ClientService.TryGetUser(ViewModel.ClientService.Options.MyId, out User user))

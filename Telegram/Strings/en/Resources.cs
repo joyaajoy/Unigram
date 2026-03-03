@@ -3815,7 +3815,72 @@ namespace Telegram
         /// Localized resource similar to "bot"
         /// </summary>
         public static string Bot => Resource.GetString("Bot");
-        
+
+        /// <summary>
+        /// Localized resource similar to "Bot Hub"
+        /// </summary>
+        public static string BotHub => Resource.GetString("BotHub");
+
+        /// <summary>
+        /// Localized resource similar to "App Format &amp; Markup"
+        /// </summary>
+        public static string BotHubAppFormatSection => Resource.GetString("BotHubAppFormatSection");
+
+        /// <summary>
+        /// Localized resource similar to "HTML"
+        /// </summary>
+        public static string BotHubAppFormatHtml => Resource.GetString("BotHubAppFormatHtml");
+
+        /// <summary>
+        /// Localized resource similar to "Markdown"
+        /// </summary>
+        public static string BotHubAppFormatMarkdown => Resource.GetString("BotHubAppFormatMarkdown");
+
+        /// <summary>
+        /// Localized resource similar to "Plain Text"
+        /// </summary>
+        public static string BotHubAppFormatPlainText => Resource.GetString("BotHubAppFormatPlainText");
+
+        /// <summary>
+        /// Localized resource similar to "Inline Keyboard"
+        /// </summary>
+        public static string BotHubMarkupInlineKeyboard => Resource.GetString("BotHubMarkupInlineKeyboard");
+
+        /// <summary>
+        /// Localized resource similar to "Reply Keyboard"
+        /// </summary>
+        public static string BotHubMarkupReplyKeyboard => Resource.GetString("BotHubMarkupReplyKeyboard");
+
+        /// <summary>
+        /// Localized resource similar to "Force Reply"
+        /// </summary>
+        public static string BotHubMarkupForceReply => Resource.GetString("BotHubMarkupForceReply");
+
+        /// <summary>
+        /// Localized resource similar to "Bot Search &amp; Presets"
+        /// </summary>
+        public static string BotHubBotPresetsSection => Resource.GetString("BotHubBotPresetsSection");
+
+        /// <summary>
+        /// Localized resource similar to "Bot Tasks"
+        /// </summary>
+        public static string BotHubBotTasksSection => Resource.GetString("BotHubBotTasksSection");
+
+        /// <summary>
+        /// Localized resource similar to "Agent Projects"
+        /// </summary>
+        public static string BotHubAgentTasksSection => Resource.GetString("BotHubAgentTasksSection");
+
+        /// <summary>
+        /// Localized resource similar to "Environment Deployment"
+        /// </summary>
+        public static string BotHubDeploymentTasksSection => Resource.GetString("BotHubDeploymentTasksSection");
+
+        /// <summary>
+        /// Localized resource similar to "Add task"
+        /// </summary>
+        public static string BotHubAddTask => Resource.GetString("BotHubAddTask");
+
         /// <summary>
         /// Localized resource similar to "what's this?"
         /// </summary>

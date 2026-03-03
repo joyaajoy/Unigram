@@ -206,7 +206,8 @@ namespace Telegram
                 typeof(BusinessBotsViewModel),
                 typeof(BusinessIntroViewModel),
                 typeof(BusinessChatLinksViewModel),
-                typeof(RevenueViewModel)
+                typeof(RevenueViewModel),
+                typeof(BotHubViewModel)
             };
 
             // Preprocess: find out lazy singletons used by singletons to promote

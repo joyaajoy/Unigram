@@ -272,6 +272,14 @@
                         </controls:SettingsButton.IconSource>
                     </controls:SettingsButton>
 
+                    <controls:SettingsButton Click="BotHub_Click"
+                                             Content="{CustomResource BotHub}"
+                                             Style="{StaticResource IconBadgeButtonStyle}">
+                        <controls:SettingsButton.IconSource>
+                            <icons:Advanced />
+                        </controls:SettingsButton.IconSource>
+                    </controls:SettingsButton>
+
                     <controls:SettingsButton x:Name="PremiumGifting"
                                              Click="{x:Bind ViewModel.PremiumGifting}"
                                              Content="{CustomResource SendAGift}"
