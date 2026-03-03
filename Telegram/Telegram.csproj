@@ -696,6 +696,7 @@
     <Compile Include="ViewModels\Profile\ProfileGiftsTabViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileTopicsTabViewModel.cs" />
     <Compile Include="ViewModels\RevenueViewModel.cs" />
+    <Compile Include="ViewModels\BotHubViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileChannelsTabViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileGroupsTabViewModel.cs" />
     <Compile Include="ViewModels\Profile\ProfileMembersTabViewModel.cs" />
@@ -1804,6 +1805,9 @@
     </Compile>
     <Compile Include="Views\DiagnosticsPage.xaml.cs">
       <DependentUpon>DiagnosticsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BotHubPage.xaml.cs">
+      <DependentUpon>BotHubPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Folders\FolderPage.xaml.cs">
       <DependentUpon>FolderPage.xaml</DependentUpon>
@@ -3882,6 +3886,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\DiagnosticsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BotHubPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

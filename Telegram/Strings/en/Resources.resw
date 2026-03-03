@@ -2563,6 +2563,45 @@ from **{0}**.</value>
   <data name="Bot" xml:space="preserve">
     <value>bot</value>
   </data>
+  <data name="BotHub" xml:space="preserve">
+    <value>Bot Hub</value>
+  </data>
+  <data name="BotHubAppFormatSection" xml:space="preserve">
+    <value>App Format &amp; Markup</value>
+  </data>
+  <data name="BotHubAppFormatHtml" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="BotHubAppFormatMarkdown" xml:space="preserve">
+    <value>Markdown</value>
+  </data>
+  <data name="BotHubAppFormatPlainText" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="BotHubMarkupInlineKeyboard" xml:space="preserve">
+    <value>Inline Keyboard</value>
+  </data>
+  <data name="BotHubMarkupReplyKeyboard" xml:space="preserve">
+    <value>Reply Keyboard</value>
+  </data>
+  <data name="BotHubMarkupForceReply" xml:space="preserve">
+    <value>Force Reply</value>
+  </data>
+  <data name="BotHubBotPresetsSection" xml:space="preserve">
+    <value>Bot Search &amp; Presets</value>
+  </data>
+  <data name="BotHubBotTasksSection" xml:space="preserve">
+    <value>Bot Tasks</value>
+  </data>
+  <data name="BotHubAgentTasksSection" xml:space="preserve">
+    <value>Agent Projects</value>
+  </data>
+  <data name="BotHubDeploymentTasksSection" xml:space="preserve">
+    <value>Environment Deployment</value>
+  </data>
+  <data name="BotHubAddTask" xml:space="preserve">
+    <value>Add task</value>
+  </data>
   <data name="BotAdWhat" xml:space="preserve">
     <value>what&apos;s this?</value>
   </data>

@@ -872,6 +872,11 @@ namespace Telegram.Services
                         _clientService,
                         _settingsService,
                         _eventAggregator);
+                case "Telegram.ViewModels.BotHubViewModel":
+                    return (T)(object)new Telegram.ViewModels.BotHubViewModel(
+                        _clientService,
+                        _settingsService,
+                        _eventAggregator);
                 case "Telegram.Services.IDeviceInfoService":
                     return (T)_deviceInfoService;
                 case "Telegram.Services.ISettingsService":
